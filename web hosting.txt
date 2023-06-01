@@ -1,0 +1,12 @@
+<?php 	
+	$host = "localhost";
+	$username = "id19927185_linh";
+	$password = "Ll2772772001@";
+	$dbname = "id19927185_demo";
+	$conn = new mysqli($host, $username, $password, $dbname);
+	if ($conn->connect_error) {
+		die("Connect fail: ".$conn->connect_error);
+	} else {
+		//echo 'Connect successfull!';
+	}
+ ?>

@@ -1,0 +1,21 @@
+https://xinhstoreshop.000webhostapp.com/
+
+10.nguyenvanthien99466@gmail.com ,122400541
+
+web: Ll2772772001
+
+
+mk:   Ll2772772001@
+
+user:   id19927185_linh
+
+db:  id19927185_demo
+
+Khi chỉnh sửa nhớ vào admin.php cho
+ <?php
+session_start();
+if (!isset($_SESSION['username'])) {
+	 header('Location: login.php');
+}
+?>
+lên đầu.
